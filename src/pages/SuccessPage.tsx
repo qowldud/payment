@@ -45,7 +45,8 @@ export const SuccessPage = () => {
 
   const goBackToApp = () => {
     // 예: 앱 딥링크로 이동 (iOS/Android)
-    window.location.href = "myapp://payment-complete";
+    window.location.href =
+      "https://payment-eight-neon.vercel.app/callback/payment-complete";
   };
 
   return (
