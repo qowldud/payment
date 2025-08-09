@@ -19,7 +19,7 @@ export const CheckoutPage = () => {
 
   const orderAmount = {
     currency: "KRW" as const,
-    value: amount,
+    value: amount * 10,
   };
 
   useEffect(() => {
