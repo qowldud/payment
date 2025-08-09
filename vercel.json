@@ -1,5 +1,10 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "rewrites": [
+    {
+      "source": "/((?!success|fail|payment|.well-known).*)",
+      "destination": "/"
+    }
+  ],
   "headers": [
     {
       "source": "/.well-known/apple-app-site-association",
